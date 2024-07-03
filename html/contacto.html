@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Contacto</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg navbar-dark bg-header shadow">
+        <a class="navbar-brand font-weight-bold text-white">
+            <h1>Cali-dos</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link text-white" href="../index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="../html/servicios.html">Servicios</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </header>
+    <main> 
+        <section class="container mt-5">
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <h2 class="text-center text-main">Comunicate con nosotros</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="name" class="text-main">Nombre y Apellido</label>
+                            <input type="text" class="form-control" id="name" placeholder="Tu nombre y apellido">
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="text-main">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="email" placeholder="Correo corporativo">
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="text-main">Mensaje</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Escribe aquí tu mensaje"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-custom btn-block">Enviar</button>
+                    </form>
+                    <div class="text-center mt-3">
+                        <p class="text-main">O síguenos en nuestras redes sociales:</p>
+                        <a href="https://api.whatsapp.com/send/?phone=%2B5491137809112&text&type=phone_number&app_absent=0" class="tcard-text"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                        <a href="../assets/lkd.jpg" class="tcard-text""><i class="fab fa-linkedin"></i> LinkedIn</a>
+                        <a href="../assets/ig.jpg" class="tcard-text"><i class="fab fa-instagram"></i> Instagram</a>   
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="bg-footer text-white text-center p-4">
+        <p>&copy; 2024 Cali-dos</p>
+    </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
