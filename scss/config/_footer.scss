@@ -1,0 +1,12 @@
+footer {
+    margin-top: 40px;
+
+    a {
+        font-size: 1.2rem;
+
+        &:hover {
+            text-decoration: none;
+            color: $footer-hover-color; 
+        }
+    }
+}
