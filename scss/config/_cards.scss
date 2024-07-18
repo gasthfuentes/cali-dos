@@ -1,0 +1,17 @@
+.card {
+    border: none;
+    transition: transform 0.3s;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+
+    .card-title {
+        font-weight: 700;
+        color: $text-main;
+    }
+
+    .card-text {
+        color: #555;
+    }
+}

@@ -1,0 +1,13 @@
+@mixin button-styles($bg-color, $text-color, $hover-bg-color, $hover-text-color) {
+    background-color: $bg-color;
+    color: $text-color;
+
+    &:hover {
+        background-color: $hover-bg-color;
+        color: $hover-text-color;
+    }
+}
+
+@mixin transition-transform($duration) {
+    transition: transform $duration;
+}
